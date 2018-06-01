@@ -3,11 +3,7 @@
 ########################################################################################
 ## Clone from git
 do_colorinstall() {
-if [ -f /etc/emulationstation/themes/freeplay-$1/color.xml ];
-	then
-		echo "$1 theme already installed! Run freeplay_update.sh to update..."
-		return
-	fi
+
 sudo git clone --recursive --depth 1 "https://github.com/rxbrad/es-theme-freeplay.git" "/etc/emulationstation/themes/freeplay-$1"
 }
 
