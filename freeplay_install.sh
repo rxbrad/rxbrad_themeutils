@@ -1,21 +1,21 @@
-#!/bin/bash
+#!/bin/sh
 
 ########################################################################################
 ## Clone from git
 do_colorinstall() {
-if [ -f /etc/emulationstation/themes/freeplay-$@/color.xml ];
+if [ -f /etc/emulationstation/themes/freeplay-$1/color.xml ];
 	then
-		echo "$@ theme already installed! Run freeplay_update.sh to update..."
+		echo "$1 theme already installed! Run freeplay_update.sh to update..."
 		return
 	fi
-sudo git clone --recursive --depth 1 "https://github.com/rxbrad/es-theme-freeplay.git" "/etc/emulationstation/themes/freeplay-$@"
+sudo git clone --recursive --depth 1 "https://github.com/rxbrad/es-theme-freeplay.git" "/etc/emulationstation/themes/freeplay-$1"
 }
 
 ########################################################################################
 ## Copy specific color to color.xml
 do_colorcopy() {
-echo " - Configuring $@ theme....."
-sudo cp -r /etc/emulationstation/themes/freeplay-$@/$@.xml /etc/emulationstation/themes/freeplay-$@/color.xml
+echo " - Configuring $1 theme....."
+sudo cp -r /etc/emulationstation/themes/freeplay-$1/$1.xml /etc/emulationstation/themes/freeplay-$1/color.xml
 }
 
 ########################################################################################
