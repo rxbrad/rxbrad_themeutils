@@ -15,7 +15,7 @@ sudo git clone --recursive --depth 1 "https://github.com/rxbrad/es-theme-freepla
 ## Copy specific color to color.xml
 do_colorcopy() {
 echo " - Configuring $@ theme....."
-cp -r /etc/emulationstation/themes/freeplay-$@/$@.xml /etc/emulationstation/themes/freeplay-$@/color.xml
+sudo cp -r /etc/emulationstation/themes/freeplay-$@/$@.xml /etc/emulationstation/themes/freeplay-$@/color.xml
 }
 
 ########################################################################################

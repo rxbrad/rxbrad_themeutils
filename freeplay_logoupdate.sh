@@ -22,7 +22,7 @@ if [ ! -f /etc/emulationstation/themes/freeplay-$@/color.xml ];
 		return
 	fi
 echo " - Configuring $@ theme with logo enabled....."
-cp -r /etc/emulationstation/themes/freeplay-$@/$@_fp.xml /etc/emulationstation/themes/freeplay-$@/color.xml
+sudo cp -r /etc/emulationstation/themes/freeplay-$@/$@_fp.xml /etc/emulationstation/themes/freeplay-$@/color.xml
 }
 
 ########################################################################################
