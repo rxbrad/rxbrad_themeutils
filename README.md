@@ -17,16 +17,15 @@ Recommended Installation Method
 Use the commands below to install/update utility:
 
 
-NEW INSTALL:
+INSTALL:
 ```
 cd ~;git clone https://github.com/rxbrad/rxbrad_themeutils.git
 ```
 
-UPDATE EXISTING INSTALL:
+At the moment, you will need to chmod the .sh files so they're executable before you can run them (I'll try to fix this when I can get on a non-Windows development rig):
 ```
-cd ~/rxbrad_themeutils;git pull origin master
+cd ~/rxbrad_themeutils;sudo chmod 755 *.sh
 ```
-
 
 Usage
 -----------
@@ -35,23 +34,23 @@ There are 12 different color variants for this theme.  This utility will automat
 
 Install Freeplay theme colors:
 ```
-cd ~/rxbrad_themeutils;freeplay_install.sh
+cd ~/rxbrad_themeutils;./freeplay_install.sh
 ```
 
 
 Install Freeplay theme colors with FreeplayTech logo:
 ```
-cd ~/rxbrad_themeutils;freeplay_logoinstall.sh
+cd ~/rxbrad_themeutils;./freeplay_logoinstall.sh
 ```
 
 
 Update Freeplay theme colors:
 ```
-cd ~/rxbrad_themeutils;freeplay_update.sh
+cd ~/rxbrad_themeutils;./freeplay_update.sh
 ```
 
 
 update Freeplay theme colors with FreeplayTech logo:
 ```
-cd ~/rxbrad_themeutils;freeplay_logoupdate.sh
+cd ~/rxbrad_themeutils;./freeplay_logoupdate.sh
 ```
