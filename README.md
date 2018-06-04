@@ -14,7 +14,7 @@ Creative Commons CC BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/3.0
 
 Recommended Installation Method
 -----------
-Use the commands below to install/update utility:
+Use the commands below to install/update utility (note, this installs the UTILITY & not the themes -- see below for theme installation):
 
 
 INSTALL:
