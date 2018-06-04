@@ -47,4 +47,4 @@ do_colorcopy orange
 do_colorcopy platinum
 do_colorcopy red
 do_colorcopy white
-##do_colorcopy yellow
+do_colorcopy yellow
