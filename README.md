@@ -22,9 +22,14 @@ INSTALL:
 cd ~;git clone https://github.com/rxbrad/rxbrad_themeutils.git
 ```
 
-At the moment, you will need to chmod the .sh files so they're executable before you can run them (I'll try to fix this when I can get on a non-Windows development rig):
+UPDATE:
 ```
-cd ~/rxbrad_themeutils;sudo chmod 755 *.sh
+cd ~/rxbrad_themeutils;git pull origin master
+```
+
+Note: If you previously installed these utilities before I was able to properly set the files' permissions (and you had to chmod the files manually), updating may fail.  In this case, you will probably need to remove and reinstall from scratch.  You can remove the scripts using the following command:
+```
+sudo rm -rf ~/rxbrad_themeutils
 ```
 
 Usage
