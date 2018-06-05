@@ -34,7 +34,7 @@ sudo rm -rf ~/rxbrad_themeutils
 
 Usage
 -----------
-There are 12 different color variants for this theme.  This utility will automatically clone the theme into each of its different color variants so you don't have to manually edit any files to choose between the possible colors.  These themes are installed and maintained in different folders than the version of the theme available in RetroPie's ESThemes menu.
+There are 12 different color variants for the Freeplay theme.  This utility will automatically clone the theme into each of its different color variants so you don't have to manually edit any files to choose between the possible colors.  These themes are installed and maintained in different folders than the version of the theme available in RetroPie's ESThemes menu.
 
 
 Install Freeplay theme colors:
