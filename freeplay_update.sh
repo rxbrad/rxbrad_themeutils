@@ -9,6 +9,7 @@ if [ ! -f /etc/emulationstation/themes/freeplay-$@/color.xml ];
 		return
 	fi
 cd "/etc/emulationstation/themes/freeplay-$@"
+sudo git reset --hard
 sudo git pull
 sudo git submodule update --init --recursive
 }
